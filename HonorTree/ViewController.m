@@ -23,6 +23,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
+    self.tree.fruitCount = 6;
+//    self.tree.fruitCount = 8;
     [self.view addSubview:self.tree];
 }
 
@@ -44,7 +46,6 @@
     if (!_tree) {
         _tree = [[Tree alloc] initWithFrame:CGRectMake([self Suit:5], (ScreenHeight - [self Suit:450])/2, ScreenWidth - [self Suit:10], [self Suit:450])];
         _tree.delegate = self;
-        _tree.fruitCount = 8;
     }
     return _tree;
 }
