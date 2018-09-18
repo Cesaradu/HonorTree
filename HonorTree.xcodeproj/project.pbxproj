@@ -13,9 +13,14 @@
 		3022F4B52150948500ACB7B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3022F4B42150948500ACB7B6 /* Assets.xcassets */; };
 		3022F4B82150948500ACB7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3022F4B62150948500ACB7B6 /* LaunchScreen.storyboard */; };
 		3022F4BB2150948500ACB7B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3022F4BA2150948500ACB7B6 /* main.m */; };
+		3022F4C52150967500ACB7B6 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3022F4C42150967500ACB7B6 /* Tree.m */; };
+		3022F4C82150969B00ACB7B6 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3022F4C72150969B00ACB7B6 /* Fruit.m */; };
+		3022F4CB215096B100ACB7B6 /* Reward.m in Sources */ = {isa = PBXBuildFile; fileRef = 3022F4CA215096B100ACB7B6 /* Reward.m */; };
+		CDE130747D4036C7982180A4 /* libPods-HonorTree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6287E58B49430AED3EBE141A /* libPods-HonorTree.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B669664C5C32FCE3AB30EB5 /* Pods-HonorTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HonorTree.release.xcconfig"; path = "Pods/Target Support Files/Pods-HonorTree/Pods-HonorTree.release.xcconfig"; sourceTree = "<group>"; };
 		3022F4A82150948500ACB7B6 /* HonorTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonorTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3022F4AB2150948500ACB7B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3022F4AC2150948500ACB7B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,16 @@
 		3022F4B72150948500ACB7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3022F4B92150948500ACB7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3022F4BA2150948500ACB7B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3022F4C12150958000ACB7B6 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		3022F4C32150967500ACB7B6 /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		3022F4C42150967500ACB7B6 /* Tree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		3022F4C62150969B00ACB7B6 /* Fruit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		3022F4C72150969B00ACB7B6 /* Fruit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		3022F4C9215096B100ACB7B6 /* Reward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reward.h; sourceTree = "<group>"; };
+		3022F4CA215096B100ACB7B6 /* Reward.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reward.m; sourceTree = "<group>"; };
+		3022F4CD215097D100ACB7B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6287E58B49430AED3EBE141A /* libPods-HonorTree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HonorTree.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8628410980DE807123F1610 /* Pods-HonorTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HonorTree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HonorTree/Pods-HonorTree.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE130747D4036C7982180A4 /* libPods-HonorTree.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +60,8 @@
 			children = (
 				3022F4AA2150948500ACB7B6 /* HonorTree */,
 				3022F4A92150948500ACB7B6 /* Products */,
+				B1EF5063F2CD940FFAD42A8F /* Pods */,
+				F5D1F387585F071A270D523B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +78,11 @@
 			children = (
 				3022F4AB2150948500ACB7B6 /* AppDelegate.h */,
 				3022F4AC2150948500ACB7B6 /* AppDelegate.m */,
+				3022F4C22150965200ACB7B6 /* HonorTree */,
 				3022F4AE2150948500ACB7B6 /* ViewController.h */,
 				3022F4AF2150948500ACB7B6 /* ViewController.m */,
+				3022F4C12150958000ACB7B6 /* Define.h */,
+				3022F4CD215097D100ACB7B6 /* PrefixHeader.pch */,
 				3022F4B12150948500ACB7B6 /* Main.storyboard */,
 				3022F4B42150948500ACB7B6 /* Assets.xcassets */,
 				3022F4B62150948500ACB7B6 /* LaunchScreen.storyboard */,
@@ -71,6 +92,36 @@
 			path = HonorTree;
 			sourceTree = "<group>";
 		};
+		3022F4C22150965200ACB7B6 /* HonorTree */ = {
+			isa = PBXGroup;
+			children = (
+				3022F4C32150967500ACB7B6 /* Tree.h */,
+				3022F4C42150967500ACB7B6 /* Tree.m */,
+				3022F4C62150969B00ACB7B6 /* Fruit.h */,
+				3022F4C72150969B00ACB7B6 /* Fruit.m */,
+				3022F4C9215096B100ACB7B6 /* Reward.h */,
+				3022F4CA215096B100ACB7B6 /* Reward.m */,
+			);
+			path = HonorTree;
+			sourceTree = "<group>";
+		};
+		B1EF5063F2CD940FFAD42A8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8628410980DE807123F1610 /* Pods-HonorTree.debug.xcconfig */,
+				2B669664C5C32FCE3AB30EB5 /* Pods-HonorTree.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5D1F387585F071A270D523B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6287E58B49430AED3EBE141A /* libPods-HonorTree.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +129,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3022F4BE2150948500ACB7B6 /* Build configuration list for PBXNativeTarget "HonorTree" */;
 			buildPhases = (
+				4AEAE927C872931E2EFB8102 /* [CP] Check Pods Manifest.lock */,
 				3022F4A42150948500ACB7B6 /* Sources */,
 				3022F4A52150948500ACB7B6 /* Frameworks */,
 				3022F4A62150948500ACB7B6 /* Resources */,
@@ -137,13 +189,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AEAE927C872931E2EFB8102 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HonorTree-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3022F4A42150948500ACB7B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3022F4C82150969B00ACB7B6 /* Fruit.m in Sources */,
+				3022F4C52150967500ACB7B6 /* Tree.m in Sources */,
 				3022F4B02150948500ACB7B6 /* ViewController.m in Sources */,
 				3022F4BB2150948500ACB7B6 /* main.m in Sources */,
+				3022F4CB215096B100ACB7B6 /* Reward.m in Sources */,
 				3022F4AD2150948500ACB7B6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,10 +352,12 @@
 		};
 		3022F4BF2150948500ACB7B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8628410980DE807123F1610 /* Pods-HonorTree.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39577T54W8;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = HonorTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.happybird.HonorTree;
@@ -290,10 +368,12 @@
 		};
 		3022F4C02150948500ACB7B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B669664C5C32FCE3AB30EB5 /* Pods-HonorTree.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39577T54W8;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = HonorTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.happybird.HonorTree;
